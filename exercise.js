@@ -4,3 +4,6 @@ function sumOfTripledEvens(array) {
     const total = B.reduce((acc, curr) => acc+curr);
     return total;
 }
+
+const angkaTes = [1, 2, 3, 4, 5];
+console.log(sumOfTripledEvens(angkaTes));
